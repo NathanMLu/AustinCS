@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 70px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero h1 {
-    font-size: 34px;
+    font-size: 50px;
   }
 }
 #hero p {
