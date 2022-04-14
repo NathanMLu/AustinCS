@@ -798,21 +798,21 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
-#prizes {
+#venue {
     padding: 60px 0;
 }
 
-#prizes .container-fluid {
+#venue .container-fluid {
     margin-bottom: 3px;
 }
 
-#prizes .venue-map iframe {
+#venue .venue-map iframe {
     width: 100%;
     height: 100%;
     min-height: 300px;
 }
 
-#prizes .venue-info {
+#venue .venue-info {
     background: url("../img/venue-info-bg.jpg") top center no-repeat;
     background-size: cover;
     position: relative;
@@ -820,7 +820,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 60px;
 }
 
-#prizes .venue-info:before {
+#venue .venue-info:before {
     content: "";
     background: rgba(13, 20, 41, 0.8);
     position: absolute;
@@ -830,38 +830,38 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
 }
 
-#prizes .venue-info h3 {
+#venue .venue-info h3 {
     font-size: 36px;
     font-weight: 700;
     color: #fff;
 }
 
 @media (max-width: 574px) {
-    #prizes .venue-info h3 {
+    #venue .venue-info h3 {
         font-size: 24px;
     }
 }
 
-#prizes .venue-info p {
+#venue .venue-info p {
     color: #fff;
     margin-bottom: 0;
 }
 
-#prizes .venue-gallery-container {
+#venue .venue-gallery-container {
     padding-right: 12px;
 }
 
-#prizes .venue-gallery {
+#venue .venue-gallery {
     overflow: hidden;
     border-right: 3px solid #fff;
     border-bottom: 3px solid #fff;
 }
 
-#prizes .venue-gallery img {
+#venue .venue-gallery img {
     transition: all ease-in-out 0.4s;
 }
 
-#prizes .venue-gallery:hover img {
+#venue .venue-gallery:hover img {
     transform: scale(1.1);
 }
 
@@ -1038,22 +1038,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-#subscribe input {
-    background: #fff;
-    color: #060c22;
-    border: 0;
-    outline: none;
-    margin: 0;
-    padding: 9px 20px;
-    border-radius: 50px;
-    font-size: 14px;
-}
-
-@media (min-width: 767px) {
-    #subscribe input {
-        min-width: 400px;
-    }
-}
 
 #subscribe button {
     border: 0;
@@ -1063,7 +1047,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     transition: all 0.3s ease;
     outline: none;
-    font-size: 14px;
+    font-size: 26px;
     border-radius: 50px;
 }
 
@@ -1326,28 +1310,32 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 
-.facebook {
-    background: #3B5998;
+.icon-bar img {
+    width: 30px;
+    height: auto;
+}
+
+.instagram {
+    background: #f00075;
     color: white;
 }
 
-.twitter {
-    background: #55ACEE;
+.discord {
+    background: #5869ea;
     color: white;
 }
 
-.google {
-    background: #dd4b39;
-    color: white;
-}
-
-.linkedin {
-    background: #007bb5;
-    color: white;
+.email {
+    background: grey;
 }
 
 .youtube {
     background: #bb0000;
+    color: white;
+}
+
+.devpost {
+    background: #003e53;
     color: white;
 }
 
