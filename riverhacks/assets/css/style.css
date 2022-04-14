@@ -1170,6 +1170,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 
+.counter a:hover {
+    background: #3d3d3d;
+    color: white;
+}
+
 .icon-bar img {
     width: 30px;
     height: auto;
@@ -1198,6 +1203,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #003e53;
     color: white;
 }
+
+.counter {
+    background: #000;
+    color: white;
+}
+
 
 @media (max-width: 620px) {
     .icon-bar {
