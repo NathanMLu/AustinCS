@@ -464,6 +464,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+#hero img {
+    height: 500px;
+}
+
 #hero:before {
     content: "";
     background: rgba(6, 12, 34, 0.8);
@@ -492,12 +496,22 @@ h1, h2, h3, h4, h5, h6 {
     #hero .hero-container {
         top: 70px;
     }
+
+    #hero img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px) {
+    #hero img {
+        height: 250px;
+    }
 }
 
 #hero h1 {
     color: var(--pure-white);
     font-family: "Raleway", sans-serif;
-    font-size: 70px;
+    font-size: 200px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -508,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
     #hero h1 {
-        font-size: 50px;
+        font-size: 100px;
     }
 }
 
