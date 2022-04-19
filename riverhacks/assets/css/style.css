@@ -726,6 +726,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 100px;
 }
 
+#schedule #toggle-mystery{
+    color: var(--section-color);
+}
+
+#schedule #toggle-mystery:hover {
+    color: var(--schedule-blue);
+}
+
 @media (max-width: 991px) {
     #schedule .nav-tabs a {
         padding: 8px 60px;
