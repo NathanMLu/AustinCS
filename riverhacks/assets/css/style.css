@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero img {
-    height: 500px;
+    width: 30%;
 }
 
 #hero:before {
@@ -498,13 +498,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #hero img {
-        height: 350px;
+        width: 40%;
     }
 }
 
 @media (max-width: 450px) {
     #hero img {
-        height: 250px;
+        width: 55%;
     }
 }
 
