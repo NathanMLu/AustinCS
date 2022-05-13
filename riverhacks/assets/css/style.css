@@ -726,7 +726,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 100px;
 }
 
-#schedule #toggle-mystery{
+#schedule #toggle-mystery {
     color: var(--section-color);
 }
 
@@ -944,6 +944,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #supporters {
     padding: 60px 0;
+}
+
+#supporters p h2{
+    text-align: center;
+    margin: 0;
 }
 
 #supporters .supporters-wrap {
