@@ -952,22 +952,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #supporters .supporters-wrap {
-    border-top: 1px solid var(--supporters-color);
-    border-left: 1px solid var(--supporters-color);
+    transform: translateX(-40px);
     margin-bottom: 30px;
 }
 
 #supporters .supporter-logo {
-    padding: 30px;
+    padding: 27px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid var(--supporters-color);
-    border-bottom: 1px solid var(--supporters-color);
     overflow: hidden;
     background: rgba(255, 255, 255, 0.5);
-    height: 160px;
+    height: 300px;
 }
+
 
 #supporters .supporter-logo:hover img {
     transform: scale(1.2);
@@ -975,6 +973,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #supporters img {
     transition: all 0.4s ease-in-out;
+    object-fit: cover; /* Scale the image to cover the div */
+    max-height: 100%; /* Prevent the image from overflowing the div */
 }
 
 /*--------------------------------------------------------------
